@@ -18,3 +18,5 @@ A full-stack AI Software-as-a-Service (SaaS) application built with Python. This
 3. Install dependencies using pinned versions to bypass Python 3.14 system incompatibilities:
    ```bash
    pip install streamlit langchain-groq supabase==2.25.0
+4. Create a .streamlit/secrets.toml file matching the template schema outlined in .streamlit/secrets.example.toml.
+5. Run the server: streamlit run app.py
